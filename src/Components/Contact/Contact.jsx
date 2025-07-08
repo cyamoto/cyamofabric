@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
+import next_icon from '../../assets/next-icon.png'
 
 const Contact = () => {
   return (
@@ -22,7 +23,7 @@ const Contact = () => {
             <input type="tel" name='phone' placheholder='Enter your mobile number' required/>
             <label>Write your messages here</label>
             <textarea name="message" rows="6" placeholder='nter your message' required></textarea>
-            <button type='submit' className='btn dark-btn'>Submit now</button>
+            <button type='submit' className='btn dark-btn'>Submit now <img src={next_icon} alt="" /></button>
         </form>
       </div>
     </div>
